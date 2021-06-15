@@ -1,0 +1,22 @@
+.intro {
+    min-height: 100vh;
+    @include flex(column, center);
+    flex-direction: column;
+   
+  
+    h2{
+      font-size: $big-font;
+      color: $secondary;
+    }
+    button{
+      border: none;
+      background: $secondary;
+      padding: 1rem 3rem;
+      transition: 1s ease all;
+      cursor: pointer;
+      &:hover{
+        background: $primary;
+      }
+  
+    }
+  }
